@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.ownerName {
+    color: rgb(48, 209, 88);
+}
+
+section {
+    height: 580px;
+}
+
+.topSection {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.half {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half p {
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.topSection > .half img {
+    margin-top: 70px;
+}
+
+.half img {
+    width: 100%;
+}
+
+.hireLink {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, rgb(48, 209, 88), rgb(52, 199, 89));
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.middleSection {
+    margin-top: 120px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.bottomSection {
+    height: 400px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+}
+
+.bottomSection div {
+    padding-right: 20px;
+}
+
+.experience {
+    margin-left: 75px;
+    font-size: 30px;
+}
+
+.subHeading {
+    color: rgb(48, 209, 88);
+}
+
+.signleExperience {
+    box-shadow: 10px 10px 40px rgb(99, 99, 102);
+    border-radius: 10px;
+    background-color: white;
+}
+
+#fullStack {
+    border-left: 8px solid rgb(255, 159, 10);
+}
+
+#babyDev {
+    margin-left: 55px;
+    border-left: 8px solid rgb(10, 132, 255);
+}
+
+footer {
+    text-align: center;
+}
