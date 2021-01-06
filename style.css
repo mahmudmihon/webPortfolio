@@ -3,21 +3,41 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+section.topMenu {
+    margin-top: 20px;
+    height: 40px;
+}
+
+section > div.navigationMenu {
+    text-decoration: none;
+    display: inline;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+section > div.navigationMenu a {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+}
+
 h1 {
     font-size: 50px;
 }
 
-.ownerName {
+h1.greetings {
+    margin-bottom: 0px;
+}
+
+h1.ownerName {
     color: rgb(48, 209, 88);
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 section {
-    height: 580px;
-}
-
-.topSection {
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
+    height: 530px;
 }
 
 .half {
@@ -30,13 +50,16 @@ section {
 .half p {
     text-align: justify;
     margin-bottom: 25px;
+    font-size: 22px;
 }
 
 .topSection > .half img {
-    margin-top: 70px;
+    margin-top: 50px;
+    width: 550px;
+    height: 450px;
 }
 
-.half img {
+.half img, .third img {
     width: 100%;
 }
 
@@ -50,45 +73,113 @@ section {
 }
 
 .middleSection {
-    margin-top: 120px;
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right bottom;
+    height: 570px;
+    margin-top: 50px;
+}
+
+.middleSection > .half img {
+    width: 550px;
+    height: 450px;
+}
+
+.middleSection > div.half > h1 {
+    margin-bottom: 15px;
 }
 
 .bottomSection {
-    height: 400px;
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: rgb(239, 239, 234);
+    height: 800px;
+}
+
+.bottomSection h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.bottomSection h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.bottomSection p {
+    text-align: justify;
 }
 
 .bottomSection div {
     padding-right: 20px;
 }
 
-.experience {
-    margin-left: 75px;
-    font-size: 30px;
-}
-
 .subHeading {
     color: rgb(48, 209, 88);
 }
 
+.third {
+    width: 26%;
+    float: left;
+    margin-left: 4%;
+}
+
 .signleExperience {
-    box-shadow: 10px 10px 40px rgb(99, 99, 102);
+    box-shadow: 10px 10px 30px grey;
     border-radius: 10px;
     background-color: white;
+    padding: 10px;
 }
 
-#fullStack {
-    border-left: 8px solid rgb(255, 159, 10);
+.contact h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 70px;
 }
 
-#babyDev {
-    margin-left: 55px;
-    border-left: 8px solid rgb(10, 132, 255);
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(48, 209, 88);
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(48, 209, 88);
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.contact label {
+    font-size: 20px;
+}
+
+input[type=text] {
+    border-radius: 30px;
+}
+
+input[type=text]:focus, textarea:focus {
+    border: 1px solid  rgb(48, 209, 88);
+}
+
+.contactForm {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.social {
+    text-align: center;
+    height: 200px;
+}
+
+.socialIcons img {
+    width: 50px;
 }
 
 footer {
